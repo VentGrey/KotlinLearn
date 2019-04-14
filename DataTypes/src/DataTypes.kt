@@ -41,6 +41,14 @@ fun main(args: Array<String>) {
     var ShortType: Short = 16
     var ByteType: Byte = 8
 
+    // Print Numbers
+    println(DoubleType)
+    println(FloatType)
+    println(LongType)
+    println(IntType)
+    println(ShortType)
+    println(ByteType)
+
     /*
     Literal constants for integral values
 
@@ -65,10 +73,11 @@ fun main(args: Array<String>) {
 
     // Char type
     var c: Char = 'o'
+    println(c)
 
     // Boolean type
     var bul: Boolean = true // false
-
+    println(bul)
     /*
     Boolean operators:
     || OR
@@ -76,4 +85,7 @@ fun main(args: Array<String>) {
     ! NOT
      */
 
+    // Arrays (The fucking weirdest arrays I've ever seen)
+    var x: IntArray = intArrayOf(1,2,3,4,5,6,7,8,9,10) // Array of integers
+    println(x)
 }
