@@ -66,5 +66,14 @@ fun main(args: Array<String>) {
     // Char type
     var c: Char = 'o'
 
+    // Boolean type
+    var bul: Boolean = true // false
+
+    /*
+    Boolean operators:
+    || OR
+    && AND
+    ! NOT
+     */
 
 }
