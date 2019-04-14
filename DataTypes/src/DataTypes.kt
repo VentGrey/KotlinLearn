@@ -43,7 +43,28 @@ fun main(args: Array<String>) {
 
     /*
     Literal constants for integral values
+
+    Decimals: 123
+        - Longs are tagged by a capital L: 123L
+    Hexadecimals: 0x0F
+    Binaries: 0b00001011
+    OCTALS ARE NOT SUPPORTED (NO ONE USES THEM ANYWAYS)
+
      */
+
+    /*
+    Explicit conversions:
+    toByte()
+    toShort()
+    toInt()
+    toLong()
+    toFloat()
+    toDouble()
+    toChar()
+     */
+
+    // Char type
+    var c: Char = 'o'
 
 
 }
